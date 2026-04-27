@@ -509,11 +509,11 @@ export default function App() {
               <span className="text-xs tracking-[0.25em] uppercase font-medium">Collaborative projects</span>
             </motion.div>
 
-            <h1 className="text-6xl md:text-8xl font-bold mb-4 tracking-tight" style={{ fontFamily: 'Raleway, sans-serif', minHeight: '80px' }}>
+            <h1 className="font-display text-6xl md:text-8xl font-bold mb-4 tracking-tight" style={{ minHeight: '80px' }}>
               <TypewriterText text="Hi, We're Sperta Squad" delay={100} />
             </h1>
             
-            <h3 className="text-2xl md:text-4xl text-[#474af0] font-bold mb-6 h-12" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h3 className="font-display text-2xl md:text-4xl text-[#474af0] font-bold mb-6 h-12">
               <RotatingTypewriter />
             </h3>
             
